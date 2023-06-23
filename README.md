@@ -20,8 +20,8 @@
  ## PROGRAM:
 
  ### SPRING BOOT:
- ### Hospital.java:
- java
+### Hospital.java:
+```java
 package com.saveetha.employee.emp;
 import jakarta.persistence.*;
 import jakarta.persistence.criteria.CriteriaBuilder;
@@ -75,9 +75,9 @@ public class HospitalController {
     }
 }
 
-
+```
 ### HospitalController.java:
-java
+```java
 package com.saveetha.employee.emp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -104,12 +104,12 @@ public class HospitalController {
         employeeService.removePatient(patientId);
     }
 }
-
+```
 
 ### REACT CODES:
 
 ### App.js:
-js
+```js
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -141,10 +141,10 @@ function App() {
   );
 }
 export default App;
-
+```
 
 ### PatientDirectoryComponent.js:
-js
+```js
 import React, { useEffect, useState } from 'react';
 import './PatientDirectoryComponent.css'; 
 
@@ -181,10 +181,10 @@ function PatientDirectoryComponent() {
 };
 
 export default PatientDirectoryComponent;
-
+```
 
 ### PatientRegistrationComponent.js:
-js
+```js
 import React, { useState } from "react";
 import './PatientRegistrationComponent.css'
 
@@ -251,10 +251,10 @@ function PatientRegistrationComponent() {
 }
 
 export default PatientRegistrationComponent;
-
+```
 
 ### PatientDeletionComponent.js:
-js
+```js
 import React, { useState } from 'react';
 import './PatientDeletionComponent.css'
 function PatientDeletionComponent() {
@@ -297,7 +297,7 @@ function PatientDeletionComponent() {
 };
 
 export default PatientDeletionComponent;
-
+```
 
 
 ## OUTPUT:
